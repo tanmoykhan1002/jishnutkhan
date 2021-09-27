@@ -1,0 +1,351 @@
+/* global style */
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/*...........................nav-bar...................... */
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  color: #153885;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.nav-item {
+  padding: 0 15px;
+}
+.nav-link:hover {
+  background-color: #f3f0d7;
+}
+.navbar {
+  padding: 0 0 2rem;
+}
+.navbarUl {
+  position: relative;
+  left: 45%;
+}
+/*.......................... section home.......................... */
+#home {
+  background: url("image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+}
+.firstH1 {
+  text-align: center;
+  padding: 5% 10% 0;
+}
+.first-h3 {
+  text-align: center;
+  padding-top: 5%;
+  font-family: "Montserrat", sans-serif;
+  color: darkgreen;
+}
+.first-h5 {
+  text-align: center;
+  color: #ff4c68;
+  font-weight: bolder;
+}
+
+/*.......................Book appointment...........................*/
+#book-appoitment {
+  padding: 0;
+}
+.container-appointment {
+  background-color: #fff7ae;
+}
+.feature-box1 {
+  padding: 2.5%;
+}
+
+.icon-1 {
+  color: #bacc57;
+  padding-top: 0;
+  margin-bottom: 3px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+}
+.icon-1:hover {
+  color: #ffb830;
+}
+h3.title-appointment {
+  padding-bottom: 0;
+  padding-left: 2%;
+}
+.book {
+  padding-left: 20px;
+}
+.last-appo {
+  padding-left: 20px;
+}
+
+/*...........................health ...........................*/
+.hr1 {
+  color: #256b6b;
+  border-style: dotted none none;
+  width: 4%;
+  border-width: thick;
+  margin: 40px auto 50px auto;
+}
+#health {
+  background-color: azure;
+}
+.health-h2 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  padding-bottom: 10px;
+  color: #ff4c68;
+}
+.health-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.corona-virus {
+  width: 35%;
+  float: left;
+  margin-right: 20px;
+}
+.cancer {
+  width: 35%;
+  float: right;
+  margin-left: 20px;
+}
+.aids {
+  width: 35%;
+  height: 150px;
+  float: left;
+  margin-right: 20px;
+}
+.heart {
+  width: 35%;
+  float: right;
+  margin-left: 20px;
+  padding-bottom: 7%;
+}
+.last-p {
+  padding-bottom: 50px;
+}
+/* patient speaks */
+* {
+  padding: 0;
+  margin: 0;
+}
+#patient-speaks {
+  overflow-x: hidden;
+  background-color: azure;
+}
+h1 {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: chocolate;
+}
+
+.top {
+  padding-top: 5%;
+}
+.section-container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-container .columns {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.columns.image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+.section-container .content-container {
+  padding: 50px 50px;
+}
+.section-container .content-container h5 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.section-container .content-container p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-bottom: 15px;
+  text-align: justify;
+  font-family: "Ubuntu", sans-serif;
+}
+.last {
+  padding-bottom: 5%;
+}
+@media screen and (max-width: 700px) {
+  .section-container {
+    flex-flow: row wrap;
+  }
+  .section-container .columns.image {
+    display: block;
+    order: 1;
+    width: 100%;
+    height: 300px;
+  }
+  .section-container .columns.content {
+    display: block;
+    order: 2;
+    width: 100%;
+  }
+  .section-container .content-container {
+    padding: 20px 35px;
+  }
+  .section-container .content-container h5 {
+    margin-bottom: 5px;
+  }
+}
+/* ............................about............................. */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 216px;
+  padding: 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  width: 100%;
+  height: 216px;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+/* services */
+.secondH1 {
+  text-align: center;
+}
+.last-container {
+  padding: 2% 8% 8%;
+}
+#features {
+  position: relative;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 4.5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  position: relative;
+  left: 60px;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.features-p {
+  padding-top: 10px;
+}
+/* buisness partner */
+
+#press {
+  background-color: #f8dbd7;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*.........................fotter.............. */
+#footer {
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 2% 15%;
+}
+.contact-p {
+  padding-left: 20px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+.social-icons {
+  padding: 0 1%;
+}
+.social-medicon {
+  padding: 2px;
+  color: grey;
+}
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+.fa-instagram:hover {
+  color: #f09433;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.fa-envelope:hover {
+  color: #e2e2e2;
+}
+
+/* ...............media query........... */
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  #title {
+    text-align: center;
+  }
+  #book-appoitment {
+    text-align: center;
+  }
+  #features {
+    text-align: center;
+  }
+  .icon {
+    position: relative;
+    left: 20px;
+  }
+  #about {
+    text-align: center;
+  }
+}
